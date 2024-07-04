@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navbar{
+    height: 50px;
+    position:fixed;
+    /* z-index:1; */
+    /* box-shadow: 0px 5px 5px rgb(207, 207, 207); */
+    display: flex;
+    justify-content: space-around;
+    /* width: 100%; */
+    width:93%;
+    padding: 20px 50px;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+ #logo{
+    display: flex;
+    justify-content: center;
+    height: 48px;
+    width: 48px;
+    color: white;
+    background-color:  #4c40f7;;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 35px ;
+    box-shadow: -5px 10px 10px rgba(0, 0, 255, 0.26);
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#pages{
+    display:flex;
+    list-style: none;
+    justify-content: flex-start;
+   
+}
+.page{
+    font-size: 20px;
+ padding: 0px 20px 0px 20px;
+ font-size: 16px;
+ font-weight: bold;
+ color: rgb(153, 153, 153);
+ 
+}
+#Contact_btn{
+    height: 60px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 15px;
+        box-shadow: -5px 10px 10px rgba(0, 0, 255, 0.26);
+
+}
+/* header end */
+/* poster section start */
+#poster{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 80px;
+}
