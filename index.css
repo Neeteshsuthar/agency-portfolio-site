@@ -1,71 +1,153 @@
-*{
-    padding: 0px;
-    margin: 0px;
-}
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
-#navbar{
-    height: 50px;
-    position:fixed;
-    /* z-index:1; */
-    /* box-shadow: 0px 5px 5px rgb(207, 207, 207); */
-    display: flex;
-    justify-content: space-around;
-    /* width: 100%; */
-    width:93%;
-    padding: 20px 50px;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: white;
-}
-
- #logo{
-    display: flex;
-    justify-content: center;
-    height: 48px;
-    width: 48px;
-    color: white;
-    background-color:  #4c40f7;;
-    border-radius: 15px;
-    font-weight: 700;
-    font-size: 35px ;
-    box-shadow: -5px 10px 10px rgba(0, 0, 255, 0.26);
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-#pages{
-    display:flex;
-    list-style: none;
-    justify-content: flex-start;
-   
-}
-.page{
-    font-size: 20px;
- padding: 0px 20px 0px 20px;
- font-size: 16px;
- font-weight: bold;
- color: rgb(153, 153, 153);
- 
-}
-#Contact_btn{
-    height: 60px;
-    width: 150px;
-    font-size: 16px;
-    font-weight: bold;
-    background-color: blue;
-    color: white;
-    border: none;
-    border-radius: 15px;
-        box-shadow: -5px 10px 10px rgba(0, 0, 255, 0.26);
-
-}
-/* header end */
-/* poster section start */
-#poster{
+/* ._main_navbar{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding-top: 80px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content:space-around;
+    padding-right: 70px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
 }
+._nested_navbar_cont{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    flex: 1;
+    justify-content: flex-start;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    color: white;
+    background-color: blue;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 40px ;
+    text-align: center;
+}
+#pages_list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style: none;
+    justify-content: space-evenly;
+}
+._pages{
+    text-decoration: none;
+    color: rgb(94, 94, 94);
+    font-weight: bold;   
+    margin-left: 30px;
+    margin-right: 30px; 
+}
+._Contact-us-btn{
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size:medium;
+    height: 60px;
+    width: 150px;
+    border: none; 
+}
+div */
+*{
+    padding: 0px;
+  margin: 0px;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+}
+@font-face {
+  font-family: poppins;
+  src: url(./fonts/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: poppins2;
+  src: url(./fonts/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: poppins3;
+  src: url(./fonts/Poppins-Light.ttf);
+}
+
+/* ************** header start *****************8 */
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 70px;
+  padding: 10px;
+  position: fixed;
+  z-index: 1;
+  width: 99%;
+  box-shadow: 0px 5px 10px black;
+}
+._left_section {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0px;
+}
+
+._middle_section {
+  display: flex;
+  flex-direction: row;
+  flex: 3.7;
+  justify-content: center;
+  align-items: center;
+}
+
+._right_section {
+  display: flex;
+  flex-direction: row;
+  flex: 1.6;
+  justify-content: center;
+}
+
+#logo {
+  background-color: rgb(64, 64, 211);
+  height: 48px;
+  width: 48px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: -6px 10px 10px rgba(0, 0, 255, 0.356);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: poppins, sans-serif;
+}
+
+._pages {
+  color: rgb(110, 110, 110);
+  font-family: poppins2;
+  margin-right: 40px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.contact_btn {
+  width: 160px;
+  border-radius: 10px;
+  box-shadow: -6px 10px 10px rgba(0, 0, 255, 0.24);
+  background-color: rgb(73, 73, 241);
+  color: white;
+  font-family: poppins2;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  height: 65px;
+  margin-top: 2px;
+}
+/* ************** header end *****************8 */
