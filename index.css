@@ -146,35 +146,12 @@
 }
 
 /* ************** poster end *****************8 */
-/* our services section start */
 
-.red_headings_main {
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 100px;
-  min-width: 400px;
-  max-width: 100%;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-.sec_red_head {
-  color: rgb(255, 55, 55);
-  font-family: poppins2;
-  font-size: 20px;
-  text-align: center;
-  flex: 1;
-}
-.main_sec_head {
-  font-size: 40px;
-  font-family: poppins2;
-  text-align: center;
-  color: rgb(41, 41, 41);
-  flex: 1;
-}
 
 /* our services section */
 #_ourservices-container {
   padding: 100px 100px 50px 100px;
+  width: 85.2%;
 }
 ._red-heading {
   color: rgb(255, 51, 51);
@@ -231,7 +208,9 @@
 
 .last_arrow_button {
   border-radius: 50px;
-  padding: 10px 10px 0px 10px;
+  /* padding: 10px 10px 0px 10px; */
+  height: 40px ;
+  width: 40px;
   background-color: rgb(231, 231, 231);
   border: none;
 }
@@ -239,6 +218,7 @@
 #top {
   padding: 100px 100px 0px 100px;
   margin-top: 50px;
+  width: 85%;
 }
 #_our-documentation-container {
   background-position: center;
@@ -259,6 +239,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   padding-bottom: 50px;
+  width: 85.1%;
 }
 #_cus-sast_cards-section {
   flex: 1;
@@ -332,6 +313,7 @@
   flex-direction: row;
   justify-content: space-around;
   text-align: center;
+  width: 100%;
 }
 
 #center {
@@ -360,6 +342,7 @@
   flex-direction: column;
   justify-content: center;
   padding: 50px 0px 50px 180px;
+  width: 85%;
 }
 .faq_guestions {
   height: 65px;
@@ -373,14 +356,17 @@
   border-color: #bbb;
   box-shadow: 0px 0px 5px rgba(219, 219, 219, 0.582);
 }
-.option:focus {
-  width: 85% !important;
+option {
+  max-width: 800px;
+  min-width: 500px;
+  overflow: scroll;
 }
 
 /* testimonials-container */
 #testimonials-container {
   padding: 150px 100px 100px 100px;
   background-color: #e4e4e465;
+  width: 85.2%;
 }
 .boxes2 {
   background-color: white;
@@ -409,6 +395,7 @@
 
 #secondlast_container {
   padding: 100px 100px 0px 100px;
+  width: 85%;
 }
 
 /* second last section */
@@ -467,8 +454,9 @@
 /* footer */
 #footer {
   background-color: #03011a;
-  padding: 40px 50px;
+  padding: 40px 54px;
   margin-top: -100px;
+  width: 92%;
 }
 #footer-first {
   display: flex;
