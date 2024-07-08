@@ -1,37 +1,491 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
     <title>React app</title>
-    <style>
-       
-    </style>
 </head>
+
 <body>
-<!-- *****************  header start  ********************** -->
-       <div id="navbar">
-           <div class="_left_section">
-              <div id="logo">C</div>
-           </div>
-           <div class="_middle_section">
-                <a class="_pages" href="#">Home</a>
-                <a  class="_pages"  href="#">Works</a>
-                <a class="_pages"  href="#">About</a>
-           </div>
-           <div class="_right_section">
-               <button class="contact_btn"> Contact us </button>
-           </div>
-       </div>
+    <!-- *****************  header start  ********************** -->
+    <div id="navbar">
+        <div class="_left_section">
+            <div class="logo">C</div>
+        </div>
+        <div class="_middle_section">
+            <a class="_pages" href="#">Home</a>
+            <a class="_pages" href="./pages/work.html">Works</a>
+            <a class="_pages" href="#">About</a>
+        </div>
+        <div class="_right_section">
+            <button class="contact_btn"> Contact us </button>
+        </div>
+    </div>
     <!-- *****************  header end  ********************** -->
 
 
     <!-- *****************  poster start  ********************** -->
-     
+    <div class="_poster_container">
+        <div id="_left-poster">
+            <h1 id="poster_heading">
+                Make your business <br>
+                <span id="red_heading"> more powerful </span> <br>
+                with us
+            </h1>
+            <p id="poster_para">
+                We provide various services to make your <br> business grow and get bigger. Your <br> satisfaction is
+                our first
+                priority.
+
+
+            </p>
+            <button id="poster_button">Get Started &nbsp; <img src="./assest/right-arrow.png" width="20px" height="25px"
+                    alt=""></button>
+
+        </div>
+        <div id="_right-poster">
+            <img id="poster_image" src="./assest/poster_image.svg">
+
+        </div>
+    </div>
     <!-- *****************  poster end  ********************** -->
 
 
+    <!-- our services -->
+    <div id="_ourservices-container">
+
+        <div>
+            <p class="_red-heading">Our services</p>
+            <h1 class="_main-heading-lower-section">The various services we provide to make your business more powerful
+            </h1>
+        </div>
+
+        <div class="boxes-container">
+
+            <!-- box-1 -->
+
+            <div class="boxes">
+                <div class="icons_ourservices-box" style="background-color: white;">
+                    <img height="30px" width="30px" src="./assest/icon1.svg" alt="icon1">
+                </div>
+                <h4 class="course_name">Ideate</h4>
+                <p class="course_detail">We help you develop creative ideas so that your business can grow more rapidly
+                </p>
+                <div>
+                    <button class="last_arrow_button"><img src="./assest/arrow.svg" height="15px" width="20px"
+                            alt=""></button>
+                </div>
+
+            </div>
+
+            <!-- box2 -->
+            <div class="boxes">
+                <div class="icons_ourservices-box" style="background-color: rgb(255, 45, 89);;">
+                    <img height="30px" width="30px" src="./assest/icon2.svg" alt="icon1">
+                </div>
+                <h4 class="course_name">Design</h4>
+                <p class="course_detail">We provide services with the best designs than our designer team for your
+                    business
+                </p>
+                <div>
+                    <button class="last_arrow_button"><img src="./assest/arrow.svg" height="15px" width="20px"
+                            alt=""></button>
+                </div>
+            </div>
+
+
+
+            <!-- box3 -->
+            <div class="boxes">
+                <div class="icons_ourservices-box" style="background-color: rgb(74, 219, 97);">
+                    <img height="30px" width="30px" src="./assest/icon3.svg" alt="icon1">
+                </div>
+                <h4 class="course_name">Web Development</h4>
+                <p class="course_detail">We help develop company websites to be more professional and attractive</p>
+                <div>
+                    <button class="last_arrow_button"><img src="./assest/arrow.svg" height="15px" width="20px"
+                            alt=""></button>
+                </div>
+            </div>
+            <!-- box-4 -->
+            <div class="boxes">
+                <div class="icons_ourservices-box" style="background-color: rgb(255, 204, 0)">
+                    <img height="30px" width="30px" src="./assest/icon4.svg" alt="icon1">
+                </div>
+                <h4 class="course_name">App Development</h4>
+                <p class="course_detail">We help develop company mobile apps to be more professional and attractive</p>
+                <div>
+                    <button class="last_arrow_button"><img src="./assest/arrow.svg" height="15px" width="20px"
+                            alt=""></button>
+                </div>
+            </div>
+
+            <!-- box-5 -->
+            <div class="boxes">
+                <div class="icons_ourservices-box" style="background-color: rgb(0, 123, 255);">
+                    <img height="30px" width="30px" src="./assest/icon5.svg" alt="icon1">
+                </div>
+                <h4 class="course_name">Business Growth</h4>
+                <p class="course_detail">We also provide services by providing input for your business growth</p>
+                <div>
+                    <button class="last_arrow_button"><img src="./assest/arrow.svg" height="15px" width="20px"
+                            alt=""></button>
+                </div>
+            </div>
+            <!-- box-6 -->
+            <div class="boxes">
+                <div class="icons_ourservices-box" style="background-color: rgb(255, 104, 0);">
+                    <img height="30px" width="30px" src="./assest/icon6.svg" alt="icon1">
+                </div>
+                <h4 class="course_name">Digital marketing</h4>
+                <p class="course_detail">We also help you market your products through an online marketplace</p>
+                <div>
+                    <button class="last_arrow_button"><img src="./assest/arrow.svg" height="15px" width="20px"
+                            alt=""></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- our documentation -->
+    <div id="_our-documentation-container">
+        <div id="top">
+            <p class="_red-heading">Our Documentation</p>
+            <h1 class="_main-heading-lower-section">See what our profile is like and how we work for your business</h1>
+        </div>
+        <div id="_document-video">
+            <video width="70%" controls>
+                <source src="./assest/trailer_hd.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <!-- Customer satification section -->
+    <div class="_customer-sati">
+        <div id="_cus-sast_cards-section">
+            <div class="sasti-box" style="margin-top:80px;">
+                <h1 class="_heading-cards2" style="color: rgb(0, 100, 231);">70K+</h1>
+                <p class="_para_cards2">We have more than customers</p>
+            </div>
+
+
+
+            <div class="sasti-box">
+                <h1 class="_heading-cards2" style="color: rgb(255, 104, 0);">100+</h1>
+                <p class="_para_cards2">Projects we have completed</p>
+            </div>
+
+
+            <div class="sasti-box">
+                <h1 class="_heading-cards2" style="color: rgb(255, 45, 89);">10M+</h1>
+                <p class="_para_cards2">People who are helped because of our hard work</p>
+            </div>
+
+
+            <div class="sasti-box" style="margin-top: -5px;">
+                <h1 class="_heading-cards2" style="color: rgb(74, 219, 97);">200+</h1>
+                <p class="_para_cards2">Support from world-renowned companies</p>
+            </div>
+        </div>
+
+        <div class="_cus-sast_text-section">
+            <h1 id="_cust-SASTI_HEADING">
+                Customer satisfaction is our first priority
+            </h1>
+            <P id="_cust_sasti_para">
+                We serve many customers, ranging from small businesses, medium entrepreneurs, to world-renowned
+                companies.
+                Their satisfaction is our pleasure. We strive to provide the best service by:
+            </P>
+            <ol id="_icon_list1">
+                <li>Provide idea support from our creative team</li>
+                <li>Provide attractive and professional design services</li>
+                <li>Support for service 24 hours a week </li>
+                <li>Helping our customers to grow their business</li>
+                <li>Provide support to market products through online marketplace</li>
+            </ol>
+        </div>
+    </div>
+
+    <div>
+        <div id="great_coustomers-container">
+            <p class="_red-heading">Some of Our Great Customers</p>
+            <h1 class="_main-heading-lower-section">Some of the companies we have worked with</h1>
+
+            <img id="_logos1" src="./assest/LOGOS.svg" height="40px" alt="">
+
+            <img src="./assest/LOGOS2.svg" height="40px" alt="">
+        </div>
+    </div>
+
+    <!-- slides -->
+    <div class="mySlides">
+        <div style="display: flex; flex: 2;"></div>
+        <div id="center">
+            <img src="./assest/quatoes.svg" height="60px" width="60px" alt="">
+            <p class="_paragraph-quatoes">We are serious about providing our best service to all <br> the customers we
+                help. Customers
+                satisfaction is our number <br> one priority.
+                <br> <br>
+            <p class="slide_last"> Donart Redzepib</p>
+
+            <p class="slide_last"> CEO & Head of Product </p>
+            </p>
+        </div>
+        <div style="display: flex; flex: 2;">
+
+        </div>
+
+    </div>
+
+
+    <!-- faq questions -->
+
+    <div id="Frequently-Ask-Question">
+        <div>
+            <p class="_red-heading">Frequently Ask Question</p>
+            <h1 class="_main-heading-lower-section">Some of our frequently asked questions</h1>
+        </div>
+
+        <div id="question_section">
+            <select class="faq_guestions" name="" id="">
+                <option class="option" value="">Question1</option>
+                <option value="">Hello, we provide various services to help your business grow and develop. We help
+                    provide ideas, create designs,
+                    develop websites and <br /> mobile applications, provide support for the growth of business ideas,
+                    to help customers market
+                    their products online through the <br /> marketplace.</option>
+            </select>
+
+
+
+            <select class="faq_guestions" name="" id="">
+                <option value="">Question2</option>
+                <option value="">Hello, we provide various services to help your business grow and develop. We help
+                    provide ideas,
+                    create designs,
+                    develop websites and <br /> mobile applications, provide support for the growth of business ideas,
+                    to help
+                    customers market
+                    their products online through the <br /> marketplace.</option>
+            </select>
+
+
+
+            <select class="faq_guestions" name="" id="">
+                <option value="">Question3</option>
+                <option value="">Hello, we provide various services to help your business grow and develop. We help
+                    provide ideas,
+                    create designs,
+                    develop websites and <br /> mobile applications, provide support for the growth of business ideas,
+                    to help
+                    customers market
+                    their products online through the <br /> marketplace.</option>
+            </select>
+
+
+
+
+            <select class="faq_guestions" name="" id="">
+                <option value="">Question4</option>
+                <option value="">Hello, we provide various services to help your business grow and develop. We help
+                    provide ideas,
+                    create designs,
+                    develop websites and <br /> mobile applications, provide support for the growth of business ideas,
+                    to help
+                    customers market
+                    their products online through the <br /> marketplace.</option>
+            </select>
+
+
+
+
+            <select class="faq_guestions" name="" id="">
+                <option value="">Question5</option>
+                <option value="">Hello, we provide various services to help your business grow and develop. We help
+                    provide ideas,
+                    create designs,
+                    develop websites and <br /> mobile applications, provide support for the growth of business ideas,
+                    to help
+                    customers market
+                    their products online through the <br /> marketplace.</option>
+            </select>
+        </div>
+    </div>
+
+    </div>
+
+
+    <!-- testenomial -->
+    <div id="testimonials-container">
+        <div>
+            <p class="_red-heading">Testimonials</p>
+            <h1 class="_main-heading-lower-section">Some testimonials from our customers</h1>
+        </div>
+
+
+        <div class="boxes-container">
+
+            <!-- box-1 -->
+
+            <div class="boxes boxes2">
+                <img class="image_testi" src="./assest/test.webp" height="90px" width="90px" alt="">
+                <h4 class="course_name">Ronald Richards</h4>
+                <p class="sub-heading">Google inc.</p>
+                <p class="_description-hi">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi eveniet
+                    provident
+                    in consequatur, incidunt.</p>
+                <img src="./assest/star.png" height="15px" width="15px" alt="">
+                <img src="./assest/star.png" height="15px" width="15px" alt="">
+                <img src="./assest/star.png" height="15px" width="15px" alt="">
+                <img src="./assest/star.png" height="15px" width="15px" alt="">
+                <img src="./assest/star.png" height="15px" width="15px" alt="">
+            </div>
+            <!-- box2 -->
+            <div class="boxes boxes2">
+                <img class="image_testi" src="./assest/test.webp" height="90px" width="90px" alt="">
+                <h4 class="course_name">Guy Hawkins</h4>
+                <p class="sub-heading">Paypal inc.</p>
+                <p class="_description-hi">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi eveniet
+                    provident
+                    in consequatur, incidunt.</p>
+                <img src="./assest/star.png" height="15px" width="15px" alt="">
+                <img src="./assest/star.png" height="15px" width="15px" alt="">
+                <img src="./assest/star.png" height="15px" width="15px" alt="">
+                <img src="./assest/star.png" height="15px" width="15px" alt="">
+                <img src="./assest/star.png" height="15px" width="15px" alt="">
+            </div>
+            <!-- box3 -->
+            <div class="boxes boxes2">
+                <img class="image_testi" src="./assest/test.webp" height="90px" width="90px" alt="">
+                <h4 class="course_name">Kristin Watson</h4>
+                <p class="sub-heading">Microsoft inc.</p>
+                <p class="_description-hi">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi eveniet
+                    provident
+                    in consequatur, incidunt.</p>
+                <img src="./assest/star.png" height="15px" width="15px" alt="">
+                <img src="./assest/star.png" height="15px" width="15px" alt="">
+                <img src="./assest/star.png" height="15px" width="15px" alt="">
+                <img src="./assest/star.png" height="15px" width="15px" alt="">
+                <img src="./assest/star.png" height="15px" width="15px" alt="">
+            </div>
+            <!-- box-4 -->
+            <div class="boxes boxes2">
+                <img class="image_testi" src="./assest/test.webp" height="90px" width="90px" alt="">
+                <h4 class="course_name">Robert Fox</h4>
+                <p class="sub-heading">Facebook inc.</p>
+                <p class="_description-hi">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi eveniet
+                    provident
+                    in consequatur, incidunt.</p>
+                <img src="./assest/star.png" height="15px" width="15px" alt="">
+                <img src="./assest/star.png" height="15px" width="15px" alt="">
+                <img src="./assest/star.png" height="15px" width="15px" alt="">
+                <img src="./assest/star.png" height="15px" width="15px" alt="">
+                <img src="./assest/star.png" height="15px" width="15px" alt="">
+            </div>
+
+            <!-- box-5 -->
+            <div class="boxes boxes2">
+                <img class="image_testi" src="./assest/test.webp" height="90px" width="90px" alt="">
+                <h4 class="course_name">Savannah Nquen</h4>
+                <p class="sub-heading">Twitter inc.</p>
+                <p class="_description-hi">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi eveniet
+                    provident
+                    in consequatur, incidunt.</p>
+                <img src="./assest/star.png" height="15px" width="15px" alt="">
+                <img src="./assest/star.png" height="15px" width="15px" alt="">
+                <img src="./assest/star.png" height="15px" width="15px" alt="">
+                <img src="./assest/star.png" height="15px" width="15px" alt="">
+                <img src="./assest/star.png" height="15px" width="15px" alt="">
+            </div>
+            <!-- box-6 -->
+            <div class="boxes boxes2">
+                <img class="image_testi" src="./assest/test.webp" height="90px" width="90px" alt="">
+                <h4 class="course_name">Courtney Henry</h4>
+                <p class="sub-heading">Apple inc.</p>
+                <p class="_description-hi">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi eveniet
+                    provident
+                    in consequatur, incidunt.</p>
+                <img src="./assest/star.png" height="15px" width="15px" alt="">
+                <img src="./assest/star.png" height="15px" width="15px" alt="">
+                <img src="./assest/star.png" height="15px" width="15px" alt="">
+                <img src="./assest/star.png" height="15px" width="15px" alt="">
+                <img src="./assest/cir" height="15px" width="15px" alt="">
+            </div>
+
+        </div>
+    </div>
+
+    <!-- secon last section -->
+    <div id="secondlast_container">
+        <div class="bow_one_ofnewproject">
+            <p class="are-you-ready">Are You Ready For</p>
+            <h1 class="heading_start">Start a New Project</h1>
+            <button class="_start-now-btn">Start Now <img src="./assest/arrow.svg" height="10px" alt=""></button>
+        </div>
+        <div class="box-2-subscribe">
+            <p class="are-you-ready">Get Notified About Project</p>
+            <h1 class="heading_start">Subscribe Now</h1>
+            <input id="input_emaiL" type="email" name="Email" placeholder="email" id="">
+        </div>
+    </div>
+<!-- footer -->
+
+<div id="footer">
+    <div id="footer-first">
+        <div class="footer_box1">
+            <div class="logo">C</div>
+            <p class="paragrapg_footer">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit sunt optio quo hic enim id laborum
+                dolorem consequatur recusandae, minus beatae soluta dicta obcaecati incidunt at odio minima eius error.
+                Nobis, recusandae praesentium. Recusandae ipsa tempore eligendi suscipit vero nam, hic labore sapiente
+                enim id! Cum est corrupti,
+                neque hic soluta exercitationem. ipsa tempore eligendi suscipit
+            </p>
+
+        </div>
+        <div class="footer_box1">
+            <h4 class="heading_footer">Our Office</h4>
+            <img src="./assest/map.svg" height="270px" alt="">
+        </div>
+        <div class="footer_box1">
+            <h4 class="heading_footer">Contact</h4>
+            <p class="paragrapg_footer">JI KH Samanhudi Metro Atom <br> Plaza BI AKS 1/11,Diki jakarta</p>
+            <p class="paragrapg_footer">info@yourdomain.com</p>
+            <p class="paragrapg_footer">+62 (0) 000 0000 00</p>
+
+        </div>
+    </div>
+
+    <hr>
+
+
+    <div id="footer-2">
+        <div id="footer-box1">
+            <p>&copy; 2024 Creative Agency</p>
+        </div>
+        <div id="footer-box2">
+            <a class="footerpages" href="#">Home</a>
+            <a class="footerpages" href="#">Work</a>
+            <a class="footerpages" href="#">About</a>
+            <a class="footerpages" href="#">Pricing</a>
+        </div>
+
+
+        <div id="footer-box3">
+            <a href="https://www.facebook.com/"><img class="footer-icons" src="./assest/faCEBOOK.png" alt="faCEBOOK"></a>
+            <a href="https://www.instagram.com/accounts/login/?hl=en"><img class="footer-icons" src="./assest/INTRAGRAM.jpg" alt="instagram"></a>
+            <a href="https://www.linkedin.com/login"><img class="footer-icons" src="./assest/Linkedin.png" alt="linkedin"></a>
+            <a href="https://twitter.com/login"><img class="footer-icons" src="./assest/twitter.png" alt="twitter"></a>
+           
+            
+            
+        </div>
+    </div>
+
+</div>
+
 
 </body>
+
 </html>
